@@ -1,0 +1,67 @@
+const projectImages = {
+  'DSA CP Performance Analyzer': '/cpRoadmap.png',
+  'Fake news classifier': '/fakeNewsClassify.png',
+  'Travel Journey': '/travelJourney.png',
+  'pythOwo (AISOC)': '/pythOwo.png',
+  'Pokesearch': '/pokeSearch.png',
+}
+
+export const featuredProjects = [
+  {
+    name: 'DSA CP Performance Analyzer',
+    description: 'A comprehensive tool for analyzing performance of Data Structures and Algorithms in competitive programming.',
+    language: ['React', 'Python'],
+    stars: 0,
+    forks: 0,
+    url: 'https://github.com/Siddharthcoding/DSA-CP-Performance-Analyzer',
+    liveUrl: 'https://cp-roadmap-frontend-latest.onrender.com',
+    topics: ['DSA', 'C++', 'Performance'],
+    image: projectImages['DSA CP Performance Analyzer'],
+  },
+  {
+    name: 'Fake news classifier',
+    description: 'Machine learning model to detect and classify fake news articles using NLP techniques.',
+    language: ['Python'],
+    stars: 0,
+    forks: 0,
+    url: 'https://github.com/Siddharthcoding/fake-news-classifier',
+    liveUrl: 'https://fake-news-classifier-ml.streamlit.app/',
+    topics: ['ML', 'NLP', 'Classification'],
+    image: projectImages['Fake news classifier'],
+  },
+  {
+    name: 'Travel Journey',
+    description: 'A travel planning application for managing trips and itineraries.',
+    language: ['JavaScript', 'React', 'Node'],
+    stars: 0,
+    forks: 0,
+    url: 'https://github.com/Siddharthcoding/travel-journey',
+    liveUrl: 'https://trip-glide.onrender.com',
+    topics: ['Travel', 'Planning', 'App'],
+    image: projectImages['Travel Journey'],
+  },
+  {
+    name: 'pythOwo (AISOC)',
+    description: 'Python utilities and tools developed for AISociety Club.',
+    language: ['JavaScript', 'React'],
+    stars: 0,
+    forks: 0,
+    url: 'https://github.com/Siddharthcoding/pythOwo',
+    liveUrl: 'https://uwu-codegen-1.onrender.com/',
+    topics: ['Python', 'AI', 'Utilities'],
+    image: projectImages['pythOwo (AISOC)'],
+  },
+  {
+    name: 'Pokesearch',
+    description: 'A Pokemon search application using PokeAPI with interactive UI.',
+    language: ['JavaScript', 'React'],
+    stars: 0,
+    forks: 0,
+    url: 'https://github.com/Siddharthcoding/pokesearch',
+    liveUrl: 'https://pokesearch-awbo.onrender.com',
+    topics: ['API', 'JavaScript', 'React'],
+    image: projectImages['Pokesearch'],
+  },
+]
+
+export const filterCategories = ['All', 'React', 'Python', 'JavaScript', 'Node']
