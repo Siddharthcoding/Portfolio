@@ -15,7 +15,7 @@ const floatingElements = [
   { icon: FiCode, label: '{}', color: '#ffffff', top: '20%', right: '8%' },
 ]
 
-const RESUME_URL = 'https://drive.google.com/file/d/1n7k6A5qbvZcL65TuncJdiDoTNMo8AGop/view?usp=sharing'
+const RESUME_URL = 'https://drive.google.com/file/d/1Mj-6MZ5CJ4yh6WMaAH0zIrSMivvjflhC/view?usp=sharing'
 
 export default function Hero() {
   const [currentRole, setCurrentRole] = useState(0)
